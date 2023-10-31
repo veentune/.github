@@ -1341,6 +1341,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_PlainIchot_Annotation1.xml?organization_annotation_20231031163821596",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-31T23:38:21.596Z",
+	"dcterms:modified": "2023-10-31T23:38:21.596Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/veentune",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "RLShields"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_PlainIchot_Annotation1.xml?organization_annotation_20231031163821596#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_PlainIchot_Annotation1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_PlainIchot_Annotation1.xml?organization_annotation_20231031163821596#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg[5]/l/ref/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/8584159248238604870002/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 		
 		
@@ -1360,7 +1439,7 @@
 				</lg><lg>
 					<l>Muge he is, ant mondrake, thourh miht of the <date when="2023">mone</date>, </l><l>Trewe triacle ytold with tonges in trone;</l><l>Such licoris mai leche from Lyne to Lone;</l><l>Such sucre mon secheth that saveth men <date when="2023-10-31">sone</date>;</l><l>Blithe yblessed of Crist, that byeth me me bone</l><l>When derne ded is in dayne derne are done.</l><l>Ase gromyl in greve, grene is the grone,</l><l>Ase quibibe ant comyn, cud is in crone, </l><l>        Cud comyn in court, canel in cofre,</l><l>        With gyngyure ant sedewale, ant the gylofre.</l>
 				</lg><lg>
-					<l>He is <ref target="https://www.mayoclinic.org/">medicyne</ref> of miht, mercie of mede, </l><l>Rekene ase Regnas resoun to rede,</l><l>Trewe as Tegeu in tour, as Wyrwein in wede<seg type="keyword"><term>mythical heroes</term></seg>,</l><l>Baldore then Byrne, that ofte the bor bede;</l><l>As Wylcadoun he is wys, dohty of dede,</l><l>Feyrore then Floyres, foles to fede,</l><l>Cud as Cradoc in court, carf the brede<seg type="keyword"><term>warriors</term></seg>, </l><l>Hendore then Hilde, that haveth me to hede.</l><l>        He haveth me to heade, this hendy, anon;</l><l>        Gentil ase Jonas, heo joyeth with Jon!</l><l/>
+					<l>He is <ref target="https://www.mayoclinic.org/"><orgName key="Mayo Clinic (Rochester)" ref="http://viaf.org/viaf/8584159248238604870002/"/>medicyne</ref> of miht, mercie of mede, </l><l>Rekene ase Regnas resoun to rede,</l><l>Trewe as Tegeu in tour, as Wyrwein in wede<seg type="keyword"><term>mythical heroes</term></seg>,</l><l>Baldore then Byrne, that ofte the bor bede;</l><l>As Wylcadoun he is wys, dohty of dede,</l><l>Feyrore then Floyres, foles to fede,</l><l>Cud as Cradoc in court, carf the brede<seg type="keyword"><term>warriors</term></seg>, </l><l>Hendore then Hilde, that haveth me to hede.</l><l>        He haveth me to heade, this hendy, anon;</l><l>        Gentil ase Jonas, heo joyeth with Jon!</l><l/>
 				</lg>
 			</div>
 			<div type="poem"/><docAuthor cert="unknown" xml:space="default"/><link cert="high" evaluate="all" facs="https://www.bl.uk/collection-items/the-harley-lyrics" xml:space="default"/>
