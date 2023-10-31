@@ -621,7 +621,7 @@
 		}
 	},
 	"oa:hasBody": {
-		"@id": "https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED4711/track?counter=4&amp;search_id=39345494",
+		"@id": "https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED4711/track?counter=4&search_id=39345494",
 		"@type": "cnt:ContentAsText"
 	},
 	"as:generator": {
@@ -712,6 +712,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_PlainIchot_Annotation1.xml?rs_annotation_20231031154445029",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-31T22:44:45.029Z",
+	"dcterms:modified": "2023-10-31T22:44:45.029Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/veentune",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "RLShields"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_PlainIchot_Annotation1.xml?rs_annotation_20231031154445029#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_PlainIchot_Annotation1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_PlainIchot_Annotation1.xml?rs_annotation_20231031154445029#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg[2]/l/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q34687",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 		
 		
@@ -725,7 +804,7 @@
 					<l>Ichot a <ref target="https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED4711/track?counter=4&amp;search_id=39345494"><note type="annotation">term with gender-flexible definitions</note>burde</ref> in a bour ase beryl so br<c cert="high" change="i" part="Y" xml:space="default">y</c>ht,</l><l>Ase saph<c cert="high" change="i" part="Y" xml:space="default">y</c>r in s<c cert="high" change="i" part="Y" xml:space="default">e</c>lver, semly on s<c cert="high" change="i" part="Y" xml:space="default">y</c>ht</l><l>Ase jaspe the gentil that lemeth with lyht,</l><l>Ase gernet in golde, ant ruby wel rhyt,</l><l>Ase onycle he yes, on yholden on hyht, </l><l>Ase diamaund the dere in day, when he is dyht.</l><l>He is coral ycud with cayser ant knyht;</l><l>Ase emeraude amorewen, this may haveth myht.</l><l>        The myht of the margarite haveth this mai mere;</l><l>        For charbocle Ich hire ches bi chyn ant by chere.</l>
 				</lg>
 				<lg>
-					<l>Hire rode is ase rose, that red is on rys;</l><l>With lilye-white leres, lossum he is;</l><l>The primerole he passeth, the peruenke of pris,</l><l>With alisaundre, thareto, ache, ant anys. </l><l>Coynte ase columbine, such hire cunde ys,</l><l>Glad under gore, in gro ant in grys.</l><l>He is blosme opon bleo, brihtest under bis, </l><l>With celydoyne ant sauge, ase thou thiself sys:</l><l>        That syht upon that semly to blis he is broht!</l><l>        He is solsecle, to sauve ys forsoht!</l>
+					<l>Hire rode is ase <rs key="Rosa" ref="http://www.wikidata.org/entity/Q34687">rose</rs>, that red is on rys;</l><l>With lilye-white leres, lossum he is;</l><l>The primerole he passeth, the peruenke of pris,</l><l>With alisaundre, thareto, ache, ant anys. </l><l>Coynte ase columbine, such hire cunde ys,</l><l>Glad under gore, in gro ant in grys.</l><l>He is blosme opon bleo, brihtest under bis, </l><l>With celydoyne ant sauge, ase thou thiself sys:</l><l>        That syht upon that semly to blis he is broht!</l><l>        He is solsecle, to sauve ys forsoht!</l>
 				</lg><lg>
 					<l>He is papejai<note type="annotation">parrot</note> in pyn, that beteth me  my bale;</l><l>To trewe tortle<note type="annotation">dove</note> in a tour, Y telle the mi tale;</l><l>He is thrustle<note type="annotation">thrush</note> thryven in thro, that singeth in sale,</l><l>The wilde laveroc, ant wolc, ant the wodewale;</l><l>He is faucoun<note type="annotation">falcon</note> in friht, dernest in dale,</l><l>Ant with everuch a gome, gladest in gale.</l><l>Frome <placeName key="Hay-on-Wye (GB ; district)" ref="http://viaf.org/viaf/4934165326475016290002/">Wye</placeName> he is wisist into <placeName key="Wirral" ref="http://viaf.org/viaf/240382966/" cert="high">Wyrhale<precision match="@ref" precision="high"/></placeName>;</l><l>Hire nome is in a note of the nyhtegale<note type="annotation">nightingale </note>, </l><l>        In a note is hire nome. Nempneth hit non?</l><l>        Whose ryht redeth, roune to Johon.</l>
 				</lg><lg>
