@@ -1420,6 +1420,94 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "http://purl.org/spar/cito/",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_PlainIchot_Annotation1.xml?citation_annotation_20231101125124613",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-01T19:51:24.613Z",
+	"dcterms:modified": "2023-11-01T19:51:24.613Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/veentune",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "RLShields"
+	},
+	"oa:motivatedBy": "cwrc:citing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_PlainIchot_Annotation1.xml?citation_annotation_20231101125124613#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_PlainIchot_Annotation1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_PlainIchot_Annotation1.xml?citation_annotation_20231101125124613#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l/note"
+		}
+	},
+	"oa:hasBody": [
+		{
+			"@type": "cito:Citation",
+			"dc:format": "text/plain",
+			"rdf:value": ""
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_PlainIchot_Annotation1.xml?citation_annotation_20231101125124613#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_PlainIchot_Annotation1.xml?citation_annotation_20231101125124613",
+			"cito:hasCitedEntity": "http://viaf.org/viaf/9528159477747827990006/",
+			"cito:hasCitationEvent": "cito:cites"
+		}
+	],
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 		
 		
@@ -1430,7 +1518,7 @@
 					<title level="a">Ichot a burde</title><title type="subtitle">from the Harley Lyrics (M.S. 2253)</title>
 				</head>
 				<lg>
-					<l>Ichot a <ref target="https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED4711/track?counter=4&amp;search_id=39345494"><note type="annotation">term with gender-flexible definitions</note>burde</ref> in a bour ase beryl so br<c cert="high" change="i" part="Y" xml:space="default">y</c>ht,</l><l>Ase saph<c cert="high" change="i" part="Y" xml:space="default">y</c>r in s<c cert="high" change="i" part="Y" xml:space="default">e</c>lver, semly on s<c cert="high" change="i" part="Y" xml:space="default">y</c>ht</l><l>Ase jaspe the gentil that lemeth with lyht,</l><l>Ase gernet in golde, ant ruby wel rhyt,</l><l>Ase onycle he yes, on yholden on hyht, </l><l>Ase diamaund the dere in day, when he is dyht.</l><l>He is coral ycud with cayser ant knyht;</l><l>Ase emeraude amorewen, this may haveth myht.</l><l>        The myht of the margarite haveth this mai mere;</l><l>        For charbocle Ich hire ches bi chyn ant by chere.</l>
+					<l>Ichot a <ref target="https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED4711/track?counter=4&amp;search_id=39345494"><note type="annotation">term with gender-flexible definitions</note>burde</ref> in a bour ase beryl<note type="citation"><bibl><ref target="http://viaf.org/viaf/9528159477747827990006/"/></bibl></note> so br<c cert="high" change="i" part="Y" xml:space="default">y</c>ht,</l><l>Ase saph<c cert="high" change="i" part="Y" xml:space="default">y</c>r in s<c cert="high" change="i" part="Y" xml:space="default">e</c>lver, semly on s<c cert="high" change="i" part="Y" xml:space="default">y</c>ht</l><l>Ase jaspe the gentil that lemeth with lyht,</l><l>Ase gernet in golde, ant ruby wel rhyt,</l><l>Ase onycle he yes, on yholden on hyht, </l><l>Ase diamaund the dere in day, when he is dyht.</l><l>He is coral ycud with cayser ant knyht;</l><l>Ase emeraude amorewen, this may haveth myht.</l><l>        The myht of the margarite haveth this mai mere;</l><l>        For charbocle Ich hire ches bi chyn ant by chere.</l>
 				</lg>
 				<lg>
 					<l>Hire rode is ase <rs key="Rosa" ref="http://www.wikidata.org/entity/Q34687">rose</rs>, that red is on rys;</l><l>With lilye-white leres, lossum he is;</l><l>The <rs key="Oenothera deltoides" ref="http://dbpedia.org/resource/Oenothera_deltoides">primerole</rs> he passeth, the <rs key="Catharanthus roseus" ref="http://www.wikidata.org/entity/Q161093">peruenke</rs> of pris,</l><l>With alisaundre, thareto, ache, ant anys. </l><l>Coynte ase columbine, such hire cunde ys,</l><l>Glad under gore, in gro ant in grys.</l><l>He is blosme opon bleo, brihtest under bis, </l><l>With celydoyne ant sauge, ase thou thiself sys:</l><l>        That syht upon that semly to blis he is broht!</l><l>        He is solsecle, to sauve ys forsoht!</l>
