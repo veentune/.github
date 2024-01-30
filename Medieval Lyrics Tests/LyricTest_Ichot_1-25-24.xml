@@ -35,7 +35,6 @@
 	"id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_1-25-24.xml?note_annotation_20240128145537931",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-28T22:55:37.931Z",
-	"dcterms:modified": "2024-01-28T22:55:37.931Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/veentune",
 		"@type": [
@@ -62,7 +61,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_1-25-24.xml?note_annotation_20240128145537931#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/lg/l/note"
+			"rdf:value": "TEI/text/body/div/lg/l/note[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -114,7 +113,6 @@
 	"id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_1-25-24.xml?note_annotation_20240128145608077",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-28T22:56:08.077Z",
-	"dcterms:modified": "2024-01-28T22:56:08.077Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/veentune",
 		"@type": [
@@ -141,7 +139,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_1-25-24.xml?note_annotation_20240128145608077#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/lg/l[2]/note"
+			"rdf:value": "TEI/text/body/div/lg/l[2]/note[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -395,6 +393,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_1-25-24.xml?note_annotation_20240130093410552",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-30T17:34:10.552Z",
+	"dcterms:modified": "2024-01-30T17:34:10.552Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/veentune",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "RLShields"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_1-25-24.xml?note_annotation_20240130093410552#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_1-25-24.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_1-25-24.xml?note_annotation_20240130093410552#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "oa:TextualBody",
+		"dc:format": "text/plain",
+		"rdf:value": "bird"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_1-25-24.xml?note_annotation_20240130093427591",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-30T17:34:27.591Z",
+	"dcterms:modified": "2024-01-30T17:34:27.591Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/veentune",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "RLShields"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_1-25-24.xml?note_annotation_20240130093427591#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_1-25-24.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_1-25-24.xml?note_annotation_20240130093427591#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l[2]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "oa:TextualBody",
+		"dc:format": "text/plain",
+		"rdf:value": "saphire"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader><xenoData/>
 		
 		
@@ -405,7 +561,7 @@
 					<title level="a">Ichot a burde</title><title type="subtitle">from the Harley Lyrics (M.S. 2253)</title>
 				</head>
 				<lg>
-					<l>Ichot a burde in a bour ase beryl so bryht<note type="annotation">bright</note>,</l><l>Ase saphyr in selver, semly on syht<note type="annotation">sight</note></l><l>Ase jaspe the gentil that lemeth with lyht<note type="annotation">light</note>,</l><l>Ase gernet in golde, ant ruby wel rhyt<note type="annotation">wrought</note>,</l><l>Ase onycle he yes, on yholden on hyht<note type="annotation">high</note>, </l><l>Ase diamaund the dere in day, when he is dyht.</l><l>He is coral ycud with cayser ant knyht;</l><l>Ase emeraude amorewen, this may haveth myht.</l><l>        The myht of the margarite haveth this mai mere;</l><l>        For charbocle Ich hire ches bi chyn ant by chere.</l>
+					<l>Ichot a burde<note type="annotation">bird</note> in a bour ase beryl so bryht<note type="annotation">bright</note>,</l><l>Ase saphyr<note type="annotation">saphire</note> in selver, semly on syht<note type="annotation">sight</note></l><l>Ase jaspe the gentil that lemeth with lyht<note type="annotation">light</note>,</l><l>Ase gernet in golde, ant ruby wel rhyt<note type="annotation">wrought</note>,</l><l>Ase onycle he yes, on yholden on hyht<note type="annotation">high</note>, </l><l>Ase diamaund the dere in day, when he is dyht.</l><l>He is coral ycud with cayser ant knyht;</l><l>Ase emeraude amorewen, this may haveth myht.</l><l>        The myht of the margarite haveth this mai mere;</l><l>        For charbocle Ich hire ches bi chyn ant by chere.</l>
 				</lg>
 				<lg>
 					<l>Hire rode is ase rose, that red is on rys;</l><l>With lilye-white leres, lossum he is;</l><l>The primerole he passeth, the peruenke of pris,</l><l>With alisaundre, thareto, ache, ant anys. </l><l>Coynte ase columbine, such hire cunde ys,</l><l>Glad under gore, in gro ant in grys.</l><l>He is blosme opon bleo, brihtest under bis, </l><l>With celydoyne ant sauge, ase thou thiself sys:</l><l>        That syht upon that semly to blis he is broht!</l><l>        He is solsecle, to sauve ys forsoht!</l>
