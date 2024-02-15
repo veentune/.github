@@ -1,6 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	
-	<teiHeader><fileDesc><titleStmt><title>Title</title></titleStmt><publicationStmt><p>Publication Information</p></publicationStmt><sourceDesc><p>Information about the source</p></sourceDesc></fileDesc><xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+	<teiHeader><fileDesc><titleStmt><title>Title</title></titleStmt><publicationStmt><p>Publication Information</p></publicationStmt><sourceDesc><p>Information about the source</p></sourceDesc></fileDesc><xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_2-13-24.xml?correction_annotation_20240215123935619",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-15T20:39:35.619Z",
+	"dcterms:modified": "2024-02-15T20:39:35.619Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/veentune",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "RLShields"
+	},
+	"oa:motivatedBy": "oa:editing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_2-13-24.xml?correction_annotation_20240215123935619#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_2-13-24.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_2-13-24.xml?correction_annotation_20240215123935619#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l/choice"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "fabio:Correction",
+		"dc:format": "text/xml",
+		"rdf:value": "emerald"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_2-13-24.xml?correction_annotation_20240215123948939",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-15T20:39:48.939Z",
+	"dcterms:modified": "2024-02-15T20:39:48.939Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/veentune",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "RLShields"
+	},
+	"oa:motivatedBy": "oa:editing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_2-13-24.xml?correction_annotation_20240215123948939#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_2-13-24.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/veentune/.github/main/Medieval%20Lyrics%20Tests/LyricTest_Ichot_2-13-24.xml?correction_annotation_20240215123948939#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l[2]/choice"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "fabio:Correction",
+		"dc:format": "text/xml",
+		"rdf:value": "pearl"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 		
 		
 	<text>
@@ -10,7 +168,7 @@
 					<title level="a">Ichot a burde</title><title type="subtitle">from the Harley Lyrics (M.S. 2253)</title>
 				</head>
 				<lg>
-					<l>Ase emeraude amorewen, this may haveth myht.</l><l>        The myht of the margarite haveth this mai mere;</l><l>        For charbocle Ich hire ches bi chyn ant by chere.</l>
+					<l>Ase <choice><sic>emeraude</sic><corr>emerald</corr></choice> amorewen, this may haveth myht.</l><l>        The myht of the <choice><sic>margarite</sic><corr>pearl</corr></choice> haveth this mai mere;</l><l>        For charbocle Ich hire ches bi chyn ant by chere.</l>
 				</lg>
 				<lg>
 					<l>Hire rode is ase rose, that red is on rys;</l><l>With lilye-white leres, lossum he is;</l><l>The primerole he passeth, the peruenke of pris,</l><l>With alisaundre, thareto, ache, ant anys. </l><l>Coynte ase columbine, such hire cunde ys,</l><l>Glad under gore, in gro ant in grys.</l><l>He is blosme opon bleo, brihtest under bis, </l><l>With celydoyne ant sauge, ase thou thiself sys:</l><l>        That syht upon that semly to blis he is broht!</l><l>        He is solsecle, to sauve ys forsoht!</l>
